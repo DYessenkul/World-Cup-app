@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D05C560AC0734D456E035A3 /* Pods_World_Cup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C10AD409AFAB806902368D /* Pods_World_Cup.framework */; };
+		3F0F3C8229A3B79700BB4CCB /* PreviousGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F3C8129A3B79700BB4CCB /* PreviousGroupsViewController.swift */; };
+		3F0F3C8429A3B7B000BB4CCB /* PreviousGroupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F3C8329A3B7B000BB4CCB /* PreviousGroupsTableViewCell.swift */; };
+		3F3CE715297D17DD00C54E3C /* MatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CE714297D17DD00C54E3C /* MatchModel.swift */; };
+		3F3CE717297D193800C54E3C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CE716297D193800C54E3C /* NetworkManager.swift */; };
+		3F4AE7A029A36566008F6CB4 /* PreviousWCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE79F29A36566008F6CB4 /* PreviousWCViewController.swift */; };
+		3F4AE7A229A36581008F6CB4 /* PreviousWCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4AE7A129A36581008F6CB4 /* PreviousWCTableViewCell.swift */; };
+		3F5B1B9729A393C6002F86D4 /* MatchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B1B9629A393C6002F86D4 /* MatchResultViewController.swift */; };
+		3F6A2B6529813FD0003BA26E /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A2B6329813FD0003BA26E /* CollectionTableViewCell.swift */; };
+		3F6A2B6629813FD0003BA26E /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A2B6429813FD0003BA26E /* CollectionTableViewCell.xib */; };
+		3F6A2B6929813FE5003BA26E /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A2B6729813FE5003BA26E /* MyCollectionViewCell.swift */; };
+		3F6A2B6A29813FE5003BA26E /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A2B6829813FE5003BA26E /* MyCollectionViewCell.xib */; };
+		3F84C06329A1E4BB00FA441A /* LastWCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84C06229A1E4BB00FA441A /* LastWCViewController.swift */; };
+		3F89186F299D1B0E00A1C1F2 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F89186E299D1B0E00A1C1F2 /* GroupsViewController.swift */; };
+		3F891871299D30D600A1C1F2 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F891870299D30D600A1C1F2 /* GroupTableViewCell.swift */; };
+		3FA900D22976802F0032D9C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA900D12976802F0032D9C0 /* AppDelegate.swift */; };
+		3FA900D42976802F0032D9C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA900D32976802F0032D9C0 /* SceneDelegate.swift */; };
+		3FA900D62976802F0032D9C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA900D52976802F0032D9C0 /* ViewController.swift */; };
+		3FA900D92976802F0032D9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA900D72976802F0032D9C0 /* Main.storyboard */; };
+		3FA900DB297680310032D9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA900DA297680310032D9C0 /* Assets.xcassets */; };
+		3FA900DE297680310032D9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA900DC297680310032D9C0 /* LaunchScreen.storyboard */; };
+		3FB2924D29AA10E9009FC97C /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB2924C29AA10E9009FC97C /* NewsViewController.swift */; };
+		3FB2924F29AA123E009FC97C /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB2924E29AA123E009FC97C /* NewsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01C10AD409AFAB806902368D /* Pods_World_Cup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_World_Cup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F8A943A454A99A9FE428C3 /* Pods-World Cup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Cup.release.xcconfig"; path = "Target Support Files/Pods-World Cup/Pods-World Cup.release.xcconfig"; sourceTree = "<group>"; };
+		3C1D3B39667F29BB0E6DF81B /* Pods-World Cup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Cup.debug.xcconfig"; path = "Target Support Files/Pods-World Cup/Pods-World Cup.debug.xcconfig"; sourceTree = "<group>"; };
+		3F0F3C8129A3B79700BB4CCB /* PreviousGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousGroupsViewController.swift; sourceTree = "<group>"; };
+		3F0F3C8329A3B7B000BB4CCB /* PreviousGroupsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousGroupsTableViewCell.swift; sourceTree = "<group>"; };
+		3F3CE714297D17DD00C54E3C /* MatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchModel.swift; sourceTree = "<group>"; };
+		3F3CE716297D193800C54E3C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3F4AE79F29A36566008F6CB4 /* PreviousWCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousWCViewController.swift; sourceTree = "<group>"; };
+		3F4AE7A129A36581008F6CB4 /* PreviousWCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousWCTableViewCell.swift; sourceTree = "<group>"; };
+		3F5B1B9629A393C6002F86D4 /* MatchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchResultViewController.swift; sourceTree = "<group>"; };
+		3F6A2B6329813FD0003BA26E /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		3F6A2B6429813FD0003BA26E /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
+		3F6A2B6729813FE5003BA26E /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F6A2B6829813FE5003BA26E /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		3F84C06229A1E4BB00FA441A /* LastWCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastWCViewController.swift; sourceTree = "<group>"; };
+		3F89186E299D1B0E00A1C1F2 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		3F891870299D30D600A1C1F2 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		3FA900CE2976802F0032D9C0 /* World Cup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Cup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA900D12976802F0032D9C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FA900D32976802F0032D9C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FA900D52976802F0032D9C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FA900D82976802F0032D9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA900DA297680310032D9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA900DD297680310032D9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA900DF297680310032D9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB2924C29AA10E9009FC97C /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		3FB2924E29AA123E009FC97C /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA900CB2976802F0032D9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D05C560AC0734D456E035A3 /* Pods_World_Cup.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6A2B5729813F4C003BA26E /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A2B6329813FD0003BA26E /* CollectionTableViewCell.swift */,
+				3F6A2B6429813FD0003BA26E /* CollectionTableViewCell.xib */,
+				3F891870299D30D600A1C1F2 /* GroupTableViewCell.swift */,
+				3F4AE7A129A36581008F6CB4 /* PreviousWCTableViewCell.swift */,
+				3F0F3C8329A3B7B000BB4CCB /* PreviousGroupsTableViewCell.swift */,
+				3FB2924E29AA123E009FC97C /* NewsTableViewCell.swift */,
+			);
+			path = "Table Cell";
+			sourceTree = "<group>";
+		};
+		3F6A2B5829813F56003BA26E /* Collection Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A2B6729813FE5003BA26E /* MyCollectionViewCell.swift */,
+				3F6A2B6829813FE5003BA26E /* MyCollectionViewCell.xib */,
+			);
+			path = "Collection Cell";
+			sourceTree = "<group>";
+		};
+		3F84C06129A1E48300FA441A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FA900D52976802F0032D9C0 /* ViewController.swift */,
+				3F89186E299D1B0E00A1C1F2 /* GroupsViewController.swift */,
+				3F84C06229A1E4BB00FA441A /* LastWCViewController.swift */,
+				3F4AE79F29A36566008F6CB4 /* PreviousWCViewController.swift */,
+				3F0F3C8129A3B79700BB4CCB /* PreviousGroupsViewController.swift */,
+				3F5B1B9629A393C6002F86D4 /* MatchResultViewController.swift */,
+				3FB2924C29AA10E9009FC97C /* NewsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3FA900C52976802F0032D9C0 = {
+			isa = PBXGroup;
+			children = (
+				3FA900D02976802F0032D9C0 /* World Cup */,
+				3FA900CF2976802F0032D9C0 /* Products */,
+				F822B6227B36C047731C334E /* Pods */,
+				9B417FCA86F4ABBD4605C6B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA900CF2976802F0032D9C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA900CE2976802F0032D9C0 /* World Cup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA900D02976802F0032D9C0 /* World Cup */ = {
+			isa = PBXGroup;
+			children = (
+				3F84C06129A1E48300FA441A /* Controllers */,
+				3F6A2B5829813F56003BA26E /* Collection Cell */,
+				3F6A2B5729813F4C003BA26E /* Table Cell */,
+				3FA900D12976802F0032D9C0 /* AppDelegate.swift */,
+				3FA900D32976802F0032D9C0 /* SceneDelegate.swift */,
+				3F3CE714297D17DD00C54E3C /* MatchModel.swift */,
+				3F3CE716297D193800C54E3C /* NetworkManager.swift */,
+				3FA900D72976802F0032D9C0 /* Main.storyboard */,
+				3FA900DA297680310032D9C0 /* Assets.xcassets */,
+				3FA900DC297680310032D9C0 /* LaunchScreen.storyboard */,
+				3FA900DF297680310032D9C0 /* Info.plist */,
+			);
+			path = "World Cup";
+			sourceTree = "<group>";
+		};
+		9B417FCA86F4ABBD4605C6B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01C10AD409AFAB806902368D /* Pods_World_Cup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F822B6227B36C047731C334E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C1D3B39667F29BB0E6DF81B /* Pods-World Cup.debug.xcconfig */,
+				16F8A943A454A99A9FE428C3 /* Pods-World Cup.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA900CD2976802F0032D9C0 /* World Cup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA900E2297680310032D9C0 /* Build configuration list for PBXNativeTarget "World Cup" */;
+			buildPhases = (
+				67F7597E064D1686F5EDE58B /* [CP] Check Pods Manifest.lock */,
+				3FA900CA2976802F0032D9C0 /* Sources */,
+				3FA900CB2976802F0032D9C0 /* Frameworks */,
+				3FA900CC2976802F0032D9C0 /* Resources */,
+				D512F9AF64FE68062F2A2C46 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "World Cup";
+			productName = "World Cup";
+			productReference = 3FA900CE2976802F0032D9C0 /* World Cup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA900C62976802F0032D9C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3FA900CD2976802F0032D9C0 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3FA900C92976802F0032D9C0 /* Build configuration list for PBXProject "World Cup" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA900C52976802F0032D9C0;
+			productRefGroup = 3FA900CF2976802F0032D9C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA900CD2976802F0032D9C0 /* World Cup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA900CC2976802F0032D9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A2B6A29813FE5003BA26E /* MyCollectionViewCell.xib in Resources */,
+				3F6A2B6629813FD0003BA26E /* CollectionTableViewCell.xib in Resources */,
+				3FA900DE297680310032D9C0 /* LaunchScreen.storyboard in Resources */,
+				3FA900DB297680310032D9C0 /* Assets.xcassets in Resources */,
+				3FA900D92976802F0032D9C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67F7597E064D1686F5EDE58B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-World Cup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D512F9AF64FE68062F2A2C46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-World Cup/Pods-World Cup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-World Cup/Pods-World Cup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-World Cup/Pods-World Cup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA900CA2976802F0032D9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F891871299D30D600A1C1F2 /* GroupTableViewCell.swift in Sources */,
+				3FA900D62976802F0032D9C0 /* ViewController.swift in Sources */,
+				3F6A2B6929813FE5003BA26E /* MyCollectionViewCell.swift in Sources */,
+				3F3CE715297D17DD00C54E3C /* MatchModel.swift in Sources */,
+				3F3CE717297D193800C54E3C /* NetworkManager.swift in Sources */,
+				3F89186F299D1B0E00A1C1F2 /* GroupsViewController.swift in Sources */,
+				3F84C06329A1E4BB00FA441A /* LastWCViewController.swift in Sources */,
+				3F6A2B6529813FD0003BA26E /* CollectionTableViewCell.swift in Sources */,
+				3FA900D22976802F0032D9C0 /* AppDelegate.swift in Sources */,
+				3F4AE7A229A36581008F6CB4 /* PreviousWCTableViewCell.swift in Sources */,
+				3F4AE7A029A36566008F6CB4 /* PreviousWCViewController.swift in Sources */,
+				3F0F3C8229A3B79700BB4CCB /* PreviousGroupsViewController.swift in Sources */,
+				3FA900D42976802F0032D9C0 /* SceneDelegate.swift in Sources */,
+				3F0F3C8429A3B7B000BB4CCB /* PreviousGroupsTableViewCell.swift in Sources */,
+				3FB2924F29AA123E009FC97C /* NewsTableViewCell.swift in Sources */,
+				3F5B1B9729A393C6002F86D4 /* MatchResultViewController.swift in Sources */,
+				3FB2924D29AA10E9009FC97C /* NewsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FA900D72976802F0032D9C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA900D82976802F0032D9C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA900DC297680310032D9C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA900DD297680310032D9C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA900E0297680310032D9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FA900E1297680310032D9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA900E3297680310032D9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C1D3B39667F29BB0E6DF81B /* Pods-World Cup.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29F8588F92;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "World Cup/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darkhan.World-Cup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA900E4297680310032D9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F8A943A454A99A9FE428C3 /* Pods-World Cup.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29F8588F92;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "World Cup/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Darkhan.World-Cup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA900C92976802F0032D9C0 /* Build configuration list for PBXProject "World Cup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA900E0297680310032D9C0 /* Debug */,
+				3FA900E1297680310032D9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA900E2297680310032D9C0 /* Build configuration list for PBXNativeTarget "World Cup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA900E3297680310032D9C0 /* Debug */,
+				3FA900E4297680310032D9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA900C62976802F0032D9C0 /* Project object */;
+}
