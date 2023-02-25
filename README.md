@@ -3,9 +3,9 @@
 The 2022 World Cup app. You can view the calendar of matches and news. And you can also see the results of the previous World Cup
 
 ## Features
--Good design
--Using pods like Alamofire, Kignfisher, ShimmerSwift
--Using json api
+- Good design
+- Using pods like Alamofire, Kignfisher, ShimmerSwift
+- Using json api
 
 ## Usage
 Install pods and download the code
